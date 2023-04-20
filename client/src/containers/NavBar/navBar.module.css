@@ -1,0 +1,52 @@
+.navBar,
+.navBar__logo,
+.navBar__option_list,
+.navBar__profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navBar {
+    height: 3rem;
+    font-weight: bolder;
+}
+
+.navBar__logo {
+    font-size: x-large;
+    flex: 1;
+}
+
+.navBar__logo h3 {
+    margin-left: 5px;
+}
+
+.navBar__logo img {
+    height: 3rem;
+}
+
+.navBar__option {
+    padding: 5px 1rem;
+    text-decoration: none;
+    margin: 0 5px;
+    border-radius: 10px;
+}
+
+.navBar__option:hover {
+    background: rgb(230, 225, 225);
+}
+
+.navBar__option_list {
+    flex: 3;
+    height: 100%;
+    font-size: large;
+}
+
+.navBar__profile {
+    flex: 1;
+    padding: 0 1rem;
+}
+
+.navBar__profile h3 {
+    margin-left: 10px;
+}

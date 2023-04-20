@@ -1,0 +1,36 @@
+.tool_search,
+.tool_search_input,
+.tool_search_prompterList {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tool_search {
+    padding: 2rem 0;
+    flex-direction: column;
+}
+
+.tool_search_input {
+    justify-content: flex-start;
+    background: #ece9e9;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    width: 40vw;
+    margin: 1rem 0;
+}
+
+.tool_search_input input {
+    background: transparent;
+    border: 0;
+    outline: none;
+    font-size: larger;
+    margin-left: 1rem;
+}
+
+.tool_search_prompterList_promt {
+    background: #e0e0e0;
+    padding: 0.5rem 1rem;
+    margin: 0.5rem;
+    border-radius: 10px;
+}
